@@ -1,0 +1,5 @@
+窓幅5秒、ストライド2秒程度。
+
+step1:AutoEncoderを作る。元の波形を再現するNN。テキトーに音を用意してたくさん突っ込めば良い。
+step2:AEのCV層の半分を利用して音階classificationを解かせる。マルチラベルAnswer。ここまでできれば論文レベルらしいorz
+step3:regressionを解かせる
